@@ -1,0 +1,50 @@
+?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvMain2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Main2" />
+
+    <TextView
+        android:id="@+id/tvMain1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Main1" />
+
+    <TextView
+        android:id="@+id/tvMain3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Main3" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tvDailyDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnBackToMain2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to Main2" />
+
+    <Button
+        android:id="@+id/btnBackToMain1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to Main1" />
+
+</LinearLayout>
